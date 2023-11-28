@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921929057148",
+    "project_id": "voca-techno",
+    "storage_bucket": "voca-techno.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921929057148:android:3c7baafcee5acc79549af9",
+        "android_client_info": {
+          "package_name": "com.samuel.vocatechno"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO2AfLuehAMjR285oQkaq2jYuOL8fMjjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

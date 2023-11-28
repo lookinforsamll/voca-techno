@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar4"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+   <ImageView
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:id="@+id/logoananda"
+       android:src="@drawable/ananda"
+       android:layout_marginTop="10dp"
+       />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logovt"
+        android:src="@drawable/vt"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="180dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoananda"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Voca Techno App"
+        android:textColor="@color/dgr"
+        android:textSize="40sp"
+        android:paddingTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loading"
+        android:layout_below="@id/title"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/background"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loading"
+        android:paddingTop="10dp"
+        android:text="Now Loading!"
+        android:textSize="35sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

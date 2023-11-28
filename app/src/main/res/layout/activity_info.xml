@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voca Techno App"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/itxt1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/itxt1"
+        android:text="Credit:"
+        android:layout_marginLeft="20dp"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppinsregular"
+        android:id="@+id/itxt2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/itxt2"
+        android:text="1. Program: Samuel"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsregular"
+        android:id="@+id/itxt3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/itxt3"
+        android:text="2. Design: Zico"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsregular"
+        android:id="@+id/itxt4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/itxt4"
+        android:text="3. Tester: Abel, Antony, Setiawan"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsregular"
+        android:id="@+id/itxt5"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itxt5"
+        android:width="300dp"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsbold"
+        android:id="@+id/buttonLogout"/>
+</RelativeLayout>

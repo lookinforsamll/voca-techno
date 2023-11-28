@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.VocaTechno" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/primarycolor</item>
+        <item name="android:colorSecondary">@color/secondarycolor</item>
+        <item name="android:colorAccent">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>
